@@ -1,4 +1,5 @@
 ThisBuild / organization := "dev.lucasmdjl"
+ThisBuild / versionScheme := Some("early-semver")
 ThisBuild / version := "0.2.0"
 ThisBuild / description := "A Scala 3 micro-library for intelligent caching with background refresh capabilities."
 ThisBuild / scalaVersion := "3.7.1"
