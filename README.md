@@ -19,7 +19,7 @@ given Clock = Clock.manual(1000)
 Add to your `build.sbt`:
 
 ```scala
-libraryDependencies += "dev.lucasmdjl" %% "scala-clock" % "x.x.x"
+libraryDependencies += "dev.lucasmdjl" %% "scala-clock" % "0.2.0"
 ```
 
 ## Usage
