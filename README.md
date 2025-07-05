@@ -29,7 +29,7 @@ libraryDependencies += "dev.lucasmdjl" %% "scala-clock" % "x.x.x"
 Use `Clock` as a contextual parameter (Scala 3's `using`):
 
 ```scala
-import dev.lucasmdjl.scala.clock.*
+import dev.lucasmdjl.clock.*
 
 class Cache[T](ttl: Long)(using clock: Clock) {
   private var lastRefresh = clock.now()

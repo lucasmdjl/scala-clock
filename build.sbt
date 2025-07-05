@@ -7,7 +7,7 @@ ThisBuild / sonatypeCredentialHost := xerial.sbt.Sonatype.sonatypeCentralHost
 lazy val root = (project in file("."))
   .settings(
     name := "scala-clock",
-    idePackagePrefix := Some("dev.lucasmdjl.scala.clock"),
+    idePackagePrefix := Some("dev.lucasmdjl.clock"),
       libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.2.19" % "test",
       "org.scalacheck" %% "scalacheck" % "1.18.1" % "test",
